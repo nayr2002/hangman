@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <script src="script.js"></script>
+    <link rel = "stylesheet"
+          type = "text/css"
+          href = "styles.css" />
+</head>
+<body>
+<div id="text">
+<h1>HANGMAN</h1>
+    <br>
+    <table id="selection" align="center">
+    <tr>
+        <td>Difficulty:</td>
+        <td>
+            <select id="difficulty">
+            <option value="easy">easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">HARD</option>
+            </select>
+        </td>
+        <td></td>
+        <td></td>
+        <td>Category:</td>
+        <td>
+            <select id="categories">
+                <option value="food">Food</option>
+                <option value="animals">Animals</option>
+                <option value="colors">Colors</option>
+            </select>
+        </td>
+    </tr>
+</table>
+    <br>
+    <button id="start" onClick="startGame()">Start Game!</button>
+    <div id="default">
+        <br>
+        <img id="gallows" src="img/gallows.png">
+        <div id="word"></div>
+    </div>
+    <br>
+    <button id="reset" onClick="reset()" >Play Again?</button>
+    <br>
+<div id="keyboard">
+    <div id="row1">
+    <button id="A" value="A" onClick="guessLetter(value)">A</button>
+    <button id="B" value="B" onClick="guessLetter(value)">B</button>
+    <button id="C" value="C" onClick="guessLetter(value)">C</button>
+    <button id="D" value="D" onClick="guessLetter(value)">D</button>
+    <button id="E" value="E" onClick="guessLetter(value)">E</button>
+    <button id="F" value="F" onClick="guessLetter(value)">F</button>
+    <button id="G" value="G" onClick="guessLetter(value)">G</button>
+    <button id="H" value="H" onClick="guessLetter(value)">H</button>
+    <button id="I" value="I" onClick="guessLetter(value)">I</button>
+    <button id="J" value="J" onClick="guessLetter(value)">J</button>
+    <button id="K" value="K" onClick="guessLetter(value)">K</button>
+    <button id="L" value="L" onClick="guessLetter(value)">L</button>
+    <button id="M" value="M" onClick="guessLetter(value)">M</button>
+    </div>
+    <div id="row2">
+    <button id="N" value="N" onClick="guessLetter(value)">N</button>
+    <button id="O" value="O" onClick="guessLetter(value)">O</button>
+    <button id="P" value="P" onClick="guessLetter(value)">P</button>
+    <button id="Q" value="Q" onClick="guessLetter(value)">Q</button>
+    <button id="R" value="R" onClick="guessLetter(value)">R</button>
+    <button id="S" value="S" onClick="guessLetter(value)">S</button>
+    <button id="T" value="T" onClick="guessLetter(value)">T</button>
+    <button id="U" value="U" onClick="guessLetter(value)">U</button>
+    <button id="V" value="V" onClick="guessLetter(value)">V</button>
+    <button id="W" value="W" onClick="guessLetter(value)">W</button>
+    <button id="X" value="X" onClick="guessLetter(value)">X</button>
+    <button id="Y" value="Y" onClick="guessLetter(value)">Y</button>
+    <button id="Z" value="Z" onClick="guessLetter(value)">Z</button>
+    </div>
+</div>
+</div>
+</body>
+</html>`

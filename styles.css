@@ -1,0 +1,102 @@
+body {
+    background-image: url(img/cowboytime.jpg);
+    background-size: cover;
+}
+
+#text {
+    text-align: center;
+}
+
+#keyboard {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #c07b3c;
+    border: 5px solid saddlebrown;
+    display: none;
+}
+h1 {
+    font-family: playbill;
+    font-size: 125px;
+    color: saddlebrown;
+    text-shadow: 1px 1px peachpuff, -1px 1px peachpuff, 1px -1px peachpuff, -1px -1px peachpuff;
+    letter-spacing: 10px;
+    font-weight: normal;
+    background: peru;
+    margin: 0px;
+    border: 5px solid saddlebrown;
+}
+
+#word {
+    font-family: playbill;
+    font-size: 125px;
+    color: saddlebrown;
+    text-shadow: 1px 1px peachpuff, -1px 1px peachpuff, 1px -1px peachpuff, -1px -1px peachpuff;
+    letter-spacing: 10px;
+    font-weight: normal;
+}
+
+button {
+    border: 3px solid saddlebrown;
+    padding: 15px;
+    margin: 4px 1px;
+    font-family: playbill;
+    text-shadow: 1px 1px peachpuff, -1px 1px peachpuff, 1px -1px peachpuff, -1px -1px peachpuff;
+    font-size: 50px;
+    color: saddlebrown;
+    background-color: peru;
+    box-shadow: 0 3px saddlebrown;
+    outline: none;
+}
+
+button:hover {
+    background-color: #b8713e;
+}
+
+button:active {
+    box-shadow: 0 1px saddlebrown;
+    transform: translateY(2px);
+}
+
+#selection {
+    font-family: playbill;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: saddlebrown;
+    text-shadow: 1px 1px peachpuff, -1px 1px peachpuff, 1px -1px peachpuff, -1px -1px peachpuff;
+}
+
+select {
+    position: relative;
+    background-color: peru;
+    border: 3px solid saddlebrown;
+    font-family: playbill;
+    font-size: 40px;
+    color: saddlebrown;
+    text-shadow: 1px 1px peachpuff, -1px 1px peachpuff, 1px -1px peachpuff, -1px -1px peachpuff;
+
+}
+
+#reset {
+    display: none;
+}
+
+#gallows {
+    width: 60%;
+    height: 60%;
+}
+
+#default {
+    display: none;
+    background: peru;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 30px;
+    border: 5px solid saddlebrown;
+}
+
+#start {
+    margin-top: 10%;
+}
+
+
+
